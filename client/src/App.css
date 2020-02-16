@@ -1,0 +1,117 @@
+.Nav-Menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: seagreen;
+}
+h1{
+  color: white;
+  margin: 30px 20px;
+  font-size: 40px;
+}
+.add-Btn{
+  padding: 10px 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+.add-Btn:hover{
+  transform: translateY(-2px);
+  border-bottom: 3px solid lightgray;
+}
+.add-Btn:focus {
+  outline: 0;
+}
+form h1 {
+  text-decoration: underline;
+  color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+form input {
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: grey;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+form label {
+  margin-top: 20px;
+}
+form input:focus {
+  outline: 0;
+}
+.Modal-btn {
+  border-radius: 5px;
+  background-color: seagreen;
+  border: transparent;
+  color: white;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Modal-btn:hover {
+  background-color: lightseagreen;
+  transform: translateY(-2px);
+}
+.Modal-btn:focus {
+  outline: 0;
+}
+.Conatct-Card {
+  border: 1px solid rgba(211, 211, 211, 0.8);
+  box-shadow: lightgray;
+  border-radius: 5px;
+  border:1px solid grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 40px;
+  width: 400px;
+  height: auto;
+}
+.Contact-List {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.Contact-Name {
+  font-size: 25px;
+  margin: 30px 10px;
+  color: black;
+}
+.Contact-Informations {
+  font-size: small;
+  margin: 10px 10px 10px 10px;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.card_btn{
+  border-radius: 5px;
+  background-color: seagreen;
+  border: transparent;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.card_btn:focus {
+  outline: 0;
+}
+.card_btn:hover {
+  background-color: lightseagreen;
+  transform: translateY(-2px);
+}
